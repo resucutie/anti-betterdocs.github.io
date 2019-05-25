@@ -124,10 +124,6 @@ body {
     transition: 150ms ease all;
 }
 
-.head .active {
-    text-decoration: underline;
-}
-
 .title {
     color: #fff;
     margin-left: 20px;
@@ -367,4 +363,18 @@ li {
 
 .FAQImage {
     margin-bottom: 5px;
+}
+
+.nav a {
+    text-decoration:none;
+    padding-bottom:12px;
+    transition:150ms ease border;
+}
+
+.nav a.active {
+    border-bottom:2px solid;
+}
+
+.nav a:hover {
+    border-bottom:2px solid rgba(255,255,255,0.8);
 }
