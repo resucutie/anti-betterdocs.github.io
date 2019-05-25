@@ -368,11 +368,12 @@ li {
 .nav a {
     text-decoration:none;
     padding-bottom:12px;
-    transition:150ms ease border;
+    transition:150ms ease border-color;
+    border-bottom:2px solid transparent;
 }
 
 .nav a.active {
-    border-bottom:2px solid;
+    border-bottom:2px solid #fff;
 }
 
 .nav a:hover {
