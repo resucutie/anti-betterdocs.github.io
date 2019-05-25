@@ -347,9 +347,7 @@ font-size:16px;
 .question,
 .answer,
 li,
-.FAQImage,
-.faqvid,
-.videodesc {
+.FAQImage {
   margin-left:10%;
   margin-right:10%;
 }
