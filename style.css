@@ -209,7 +209,7 @@ padding: 0.75em 1.5em;
 }
 
 ::-webkit-scrollbar-track {
-  background:rgba(0,0,0,0.5);
+  background:#111315;
 }
 ::-webkit-scrollbar-thumb {
   background:#7289DA;
