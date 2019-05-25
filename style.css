@@ -372,7 +372,7 @@ li {
     border-bottom:2px solid transparent;
 }
 
-.nav a.active {
+body .nav a.active {
     border-bottom:2px solid #fff;
 }
 
