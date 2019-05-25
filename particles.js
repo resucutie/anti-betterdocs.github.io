@@ -69,7 +69,7 @@ particlesJS("particles-js", {
     }
   },
   "interactivity": {
-    "detect_on": "body",
+    "detect_on": "*",
     "events": {
       "onhover": {
         "enable": true,
