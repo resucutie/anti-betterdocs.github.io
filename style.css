@@ -215,7 +215,6 @@ canvas {
     position: fixed;
     width: 100vw;
     height: 100vw;
-    top: 50px;
     z-index: -1;
 }
 
