@@ -1,1 +1,0 @@
-# anti-betterdocs.github.io
