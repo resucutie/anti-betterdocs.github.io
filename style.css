@@ -368,7 +368,7 @@ li {
 .nav a {
     text-decoration:none;
     padding-bottom:12px;
-    transition:150ms ease border-color;
+    transition:250ms ease border-color;
     border-bottom:2px solid transparent;
 }
 
