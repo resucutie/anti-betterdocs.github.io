@@ -173,7 +173,7 @@ body {
     transform: scale(1.075);
 }
 
-a:active .box {
+.box:active  {
     transform: scale(.85);
 }
 
