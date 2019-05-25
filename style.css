@@ -275,3 +275,30 @@ h3 {
   margin:0;
   font-size:12px;
 }
+.question {
+  font-weight:300;
+  color:#fff;
+  font-size:20px;
+}
+
+.answer,
+li {
+font-weight:300;
+color:#fff;
+font-size:16px;
+}
+.question,
+.answer,
+li,
+.FAQImage {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+li {
+  margin-bottom:3px;
+}
+
+.FAQImage {
+  margin-bottom:5px;
+}
