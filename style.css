@@ -86,6 +86,7 @@ body{
   background-color:#111315;
   box-shadow:0 0 12px #111315;
   z-index:3001;
+  animation:title 1s ease;
 }
 
 .horizontal{
@@ -137,11 +138,66 @@ a.cardLink {
     font-size:20px;
 }
 
+@keyframes title {
+  0% {
+    opacity:0;
+    transform: translateY(-90%);
+  }
+  100% {
+    opacity:1;
+    transform:none;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.code-container {
+  animation:fadein 750ms ease backwards;
+  animation-delay:750ms;
+}
+
+.license-container {
+  animation:fadein 750ms ease backwards;
+  animation-delay:1s;
+}
+
+.box {
+  animation:fadeIn 1s ease;
+  animation-fill-mode: backwards;
+  transition:500ms ease transform;
+}
+.box:hover img {
+  transform:scale(1.075);
+}
+
+a:active .box {
+  transform:scale(.85);
+}
+
+.box img {
+  box-shadow:0 5px 12px rgba(0,0,0,0.5);
+  transition:500ms ease transform;
+}
+
+.box:hover {
+  transform:translateY(-10px);
+}
+
 .maintext,
 .description {
   color:#f6f6f7;
   font-weight: 300;
   font-size:16px;
+  animation:title 1.25s ease;
+  animation-delay:250ms;
+  animation-fill-mode:backwards;
 }
 
 .description {
@@ -209,7 +265,7 @@ padding: 0.75em 1.5em;
 }
 
 ::-webkit-scrollbar-track {
-  background:#111315;
+  background:rgba(0,0,0,0.5);
 }
 ::-webkit-scrollbar-thumb {
   background:#7289DA;
@@ -275,6 +331,7 @@ h3 {
   margin:0;
   font-size:12px;
 }
+
 .question {
   font-weight:300;
   color:#fff;
