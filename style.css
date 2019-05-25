@@ -316,7 +316,7 @@ h3 {
     width: 100px;
     height: 100px;
     display: block;
-    border-radius:50%;
+    border-radius:5%;
 }
 .box h2 {
   color:#fff;
